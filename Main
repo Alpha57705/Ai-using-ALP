@@ -1,0 +1,99 @@
+My AI system written in ALP
+
+[gg.alpha-log(print(a.b.c))]
+[gg.alpha-log("Hello World! no condition")]
+([gg.alpha-log(b+a+c)])
+([gg.alpha-log(o.maintained)])
+(["obj.method(arg1,arg2,arg3)"])
+[gg.alpha-log(o1=(a=1,b=2,c=3))]
+[gg.alpha-log(o1.method(a,b,c))]
+[gg.alpha-log(o1.method(a,b,c).print(b))]
+[gg.alpha-log(o.maintained)]
+[gg.alpha-log(o.maintained =?TRUE)]
+[gg.alpha-log(b+a+c).r/4]
+([gg.alpha-log(functional definition)])
+[gg.alpha-log(func name=args[optarg1:optarg2:]args2[optarg3]...argsN[optargN])]
+[(gg.alpha-log(functional print-to-screen))]
+
+### Condition statements
+[gg.alpha-log(if((a.b.c=1), 1, 0))]
+[gg.alpha-log(if((a.b.c=1), a=1, a=0))]
+[gg.alpha-log(if((a.b.c=1), [a]="a", [a]="b", [a]="c")))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a, b]))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a, b]))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c]))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c]))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a")))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a")))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"))]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), b=1, c=2, d=3)]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), b=1, c=2, d=3)]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), [b]="b")]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), [b]="b")]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), [b]="b")]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), [b]="b"), c=1, d=3, e=4, f=5, g=6]
+[gg.alpha-log(if((a.b.c=1), [a, b, c], [a]="a"), [b]="b"),
+
+annoying if statements
+
+[gg.alpha-log(lambda(x) print(x), a=1, b=2, c=3))]
+[gg.alpha-log(lambda(x) print("a", a, a))]
+[gg.alpha-log(lambda(x) print("b", b, b))]
+[gg.alpha-log(lambda(x) print("c", c, c))]
+
+now for the data arguments
+
+[gg.alpha-log(if((a=1,b=2,c=3), "="a), "="a)
+(["obj.method(arg1,arg2,arg3,arg4)",(a=1,b=2,c=3), "="a))]
+(["obj.method(arg1,arg2,arg3,arg4)",
+(a=1,b=2,c=3), "="a), "="a, a=1,b=2,c=3))
+(["obj.method(arg1,arg2,arg3,arg4)",
+(a=1,b=2,c=3), "="a, a=1,b=2,c=3), "="a, a=1,b=2,c=3,
+(["obj.method(arg1,arg2,arg3,arg4),("=", "=", "="), "="a, "="a, "="a,
+"="a, a=1,b=2,c=3))]
+[gg.alpha-log(if((a=1,b=2,c=3), "="a), "="a,
+(["obj.method(arg1,arg2,arg3,arg4),(a=1,b=2,c=3), "="a, "="a, "="a,
+"="a, a=1,b=2,c=3), "="a, a=1,b=2,c=3, "="a,
+"="a, a=1,b=2,c=3, "="a, "="a,
+"="a, a=1,b=2,c
+
+Now for the AI
+
+(ai.alpha-log((ai.c),
+(ai.c=?1, "if" a=0, "="a,
+(ai.c=?1, a=1, b=2, c=3),
+(ai.c=?1, a=1, b=2, c=3),
+(ai.c=?1, a=1, b=2, c=3), a=0, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else" a=1, "="a,
+(ai.c=?1, a=1, b=2, c=3), a=1, "else"
+
+And finally the Maintain statements
+
+([gg.beta-core(x=1,y=3),
+(gg.beta-core((x=1,y=3),
+(gg.beta-core((x=1,y=3), 1,1, 2,3)))
+(gg.beta-core((x=1,y=3), 1,1, 2,3),
+(gg.beta-core((x=1,y=3), 1,1, 2,3), "="a, "="a,
+(gg.beta-core((x=1,y=3), 1,1, 2,3), "="a, "="a,
+(gg.beta-core((x=1,y=3), 1,1, 2,3), "="a, "="a,
+(gg.beta-core((x=1,y=3), 1,1, 2,3), "="a, "="a,
+
+and now the access key
+
+[(ky.token-value(token.value = YOUR TOKEN HERE), 2,2)]
+(gg.beta-log((token.value=YOUR TOKEN HERE), (ky.token-value(token.value=YOUR TOKEN HERE), 2,2))))
+and the end
+
+so there you have it my friends a simple yet effective Artificial intelligence written in all ALP. It
