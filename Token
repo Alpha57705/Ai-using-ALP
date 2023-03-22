@@ -1,0 +1,14 @@
+[(ky.token-value(value.commands =
+"do { if(a=1,b=2,c=3) {"a=1, b=2, c=3) {
+(ky.token-value(value.commands = "do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands = "do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands = "do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands =
+"do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands = "do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands =
+"do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands = "do { if(a=1,b=2,c=3) {
+(ky.token-value(value.commands =
+"do { if(a=1,b=2,c=3) {
+else {print('Error in AI');}
