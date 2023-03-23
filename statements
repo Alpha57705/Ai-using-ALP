@@ -1,0 +1,49 @@
+#if statements
+
+[{(alpha.gg-if(alpha>5,6,8)) =?TRUE}]
+(["{(alpha.gg-if(alpha>5,6,8)) =?TRUE}"])
+
+[{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8)) =?FALSE}]
+(["{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8)) =?FALSE}"])
+
+[{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?TRUE} AND (alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8)) =?FALSE}]
+(["{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?TRUE) AND (alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8)) =?FALSE}"])
+
+[{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?FALSE)}]
+(["{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?FALSE)}"])
+
+[{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?TRUE)}]
+(["{(alpha.gg-if(alpha>5,6,8).alpha-if(alpha>=5,6,8) =?TRUE)}"])
+
+#case statements
+
+[{(alpha.gg-case(alpha = 5,6,8,9)) =?FALSE}]
+(["{(alpha.gg-case(alpha = 5,6,8,9)) =?FALSE}"])
+
+[{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9)) =?FALSE}]
+(["{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9)) =?FALSE}"])
+
+[{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE)} AND (alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?FALSE}]
+(["{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE) AND (alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?FALSE)}"])
+
+[{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE)}]
+(["{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE)}"])
+
+[{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?FALSE)}]
+(["{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?FALSE)}"])
+
+[{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE)}]
+(["{(alpha.gg-case(alpha = 5,6,8,9).alpha-case(alpha = 5,6,8,9) =?TRUE)}"])
+
+#regexp statements
+
+[{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8)) =?TRUE)}]
+(["{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8)) =?TRUE)}"])
+
+[{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8) =?FALSE)}]
+(["{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8) =?FALSE)}"])
+
+[{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8) =?TRUE) AND (alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8)) =?FALSE)}]
+(["{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8) =?TRUE) AND (alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8)) =?FALSE)}"])
+
+[{(alpha.gg-if(alpha.gg-match-p(^5,6,8).alpha.gg-match-p(^5,6,8 =?ERROR.main(clone)))}]
