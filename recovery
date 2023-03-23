@@ -1,0 +1,45 @@
+[gg.alpha-log-recover("test.tbl")]
+[ai.alpha-log-recover("test.tbl",true)]
+[(ai.alpha-log-recover(test.tbl,false))]
+[(ai.alpha-log-recover("test.tbl",[aa,b,cc]))]
+[(ai.alpha-log-recover("test.tbl",(o,aa,b,cc,dd)))]
+[(ai.alpha-log-recover("test.tbl",(o=1,aa,b=2,cc=3,dd=4)))]
+[(((ai.alpha-log-recover("test.tbl",(o=1,aa=1,b=2,cc=3,dd=4)))]
+
+[gg.alpha-log-recover-no-trace("test.tbl")]
+[((ai.alpha-log-recover-no-trace("test.tbl",1)))]
+[((ai.alpha-log-recover-no-trace("test.tbl",1,"")))]
+[(ai.alpha-log-recover-no-trace("test.tbl",[1,2,3]))]
+[(ai.alpha-log-recover-no-trace("test.tbl",(o,aa,b,cc,dd)))]
+[(ai.alpha-log-recover-no-trace("test.tbl",(o=1,aa=1,b=2,cc=3,dd=4)))]
+([(ai.alpha-log-recover-no-trace("test.tbl",(o=1,aa=1,b=2,cc=3,dd=4)))])
+[gg.alpha-log-recover-no-trace-no-tables("test.tbl")]
+([(ai.alpha-log-recover-no-trace-no-tables("test.tbl",o=1,aa=1,b=2,cc=3,dd=4))])
+[gg.alpha-log-recover-no-trace-no-tables-recover-error("test.tbl")]
+[((ai.alpha-log-recover-no-trace-no-tables-recover-error("test.tbl",(o=1,aa=1,b=2,cc=3,dd=4))))]
+
+#logs
+
+([log.beta-log(o=1,aa=2,b=3,c=4,dd=5)])
+(["(log.beta-log(o,aa,b,c,dd)")])
+([(log.beta-log(o=1,aa=2,b=3,c=4,dd=5))])
+([(log.beta-log(o=1,aa=2,b=3,c=4,dd=5) =?TRUE)])
+([(log.beta-log(o=1,aa=2,b=3,c=4,dd=5) =?FALSE)])
+[(return--log(o=1,aa=2,b=3,c=4,dd=5))]
+[(log.beta-log(o=1,aa=2,b=3,c=4,dd=5).beta-log(o,aa,b,c,dd))]
+([log.beta-log(o,aa,b,c,dd).beta-log(o=1,aa=2,b=3,c=4,dd=5)])
+[((log.beta-log(o,aa,b,c,dd) =?TRUE) AND (log.beta-log(o=1,aa=2,b=3,c=4,dd=5)=?FALSE))]
+
+#assertions
+
+[assert-list-in-order(a)]
+(["ai.assert-list-in-order(a)"])
+
+[ai.assert-list-in-order(aa)]
+(["(ai.assert-list-in-order(aa))"])
+
+[ai.assert-list-in-order(aa,bb)]
+(["(ai.assert-list-in-order(aa,bb))"])
+
+[ai.assert-list-in-order(aa,bb,cc,dd)]
+(["(ai.assert-list-in-order(aa,bb,cc,dd))"])
