@@ -1,0 +1,58 @@
+#operators
+
+[gg.math-alpha(s = 5)]
+(["gg.math-alpha(s = 5)"])
+
+[gg.math-alpha(s + x = 5)]
+(["gg.math-alpha(s + x = 5)"])
+
+[gg.math-alpha(s + x = 5 + y = 6)]
+(["gg.math-alpha(s + x = 5 + y = 6)"])
+
+[gg.math-alpha(s + x = 5 + y = 6,dd = 7)]
+(["gg.math-alpha(s + x = 5 + y = 6,dd = 7)"])
+
+[gg.math-alpha(s = s - x = 5)]
+(["gg.math-alpha(s = s - x = 5)"])
+
+[gg.math-alpha(x = 5 + y = 6)]
+(["gg.math-alpha(x = 5 + y = 6)"])
+
+[gg.math-alpha(x = 5 + y = 6 + dd = 7)]
+(["gg.math-alpha(x = 5 + y = 6 + dd = 7)"])
+
+[gg.math-alpha(s = s - x - y = 5)]
+(["gg.math-alpha(s = s - x - y = 5)"])
+
+[gg.math-alpha(s - x - y + dd = 5)]
+(["gg.math-alpha(s - x - y + dd = 5)"])
+
+[gg.math-alpha(s = 5 - x - y + dd = 7)]
+(["gg.math-alpha(s = 5 - x - y + dd = 7)"])
+
+[gg.math-alpha(s + x - y + dd = 7)]
+(["gg.math-alpha(s + x - y + dd = 7)"])
+
+[gg.math-alpha(s = 5 - x + dd = 6)]
+(["gg.math-alpha(s = 5 - x + dd = 6)"])
+
+[gg.math-alpha(s + 5 - x = 6 + dd = 7)]
+(["gg.math-alpha(s + 5 - x = 6 + dd = 7)"])
+
+[gg.math-alpha(s = 5 - x - y + dd = 7 + cc = 8)]
+(["gg.math-alpha(s = 5 - x - y + dd = 7 + cc = 8)"])
+
+[gg.math-alpha(s + 5 - x - y + dd = 8)]
+(["gg.math-alpha(s + 5 - x - y + dd = 8)"])
+
+[gg.math-alpha(s - x - y + dd = 7 + cc = 8)]
+(["gg.math-alpha(s - x - y + dd = 7 + cc = 8)"])
+
+[gg.math-alpha(s = 5 - x - y + dd = 8 + cc = 9)]
+(["gg.math-alpha(s = 5 - x - y + dd = 8 + cc = 9)"])
+
+[gg.math-alpha(s = 5 - x - y + dd = 8 + cc = 9,dd = 9)]
+([(ai.log-alpha(s = 5 - x - y + dd = 8 + cc = 9,dd = 9))])
+
+[gg.math-alpha(s = 5 - x - y + dd = 8 + cc = 9,dd = 9 + u = 10)]
+([(ai.log-alpha(s = 5 - x - y + dd = 8 + cc = 9,dd = 9 + u = 10))])
