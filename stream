@@ -1,0 +1,106 @@
+[(er.echo-stream(fire.er.out(1,1)))]
+(["(er.echo-stream(fire.er.out(1,1)))"])
+
+[{(er.echo-stream(fire.er.out(1,1)) =?FIRE.OUT(1,1))}]
+(["{(er.echo-stream(fire.er.out(1,1)) =?FIRE.OUT(1,1))}"])
+[{(er.echo-stream(fire.er.out(1,1)) =?FIRE.OUT(1,1)) =?FIRE.OUT(1,1)}]
+(["{(er.echo-stream(fire.er.out(1,1)) =?FIRE.OUT(1,1)) =?FIRE.OUT(1,1)}"])
+
+[{(er.debug.print(1,1))}]
+(["{(er.debug.print(1,1))}"])
+
+[{(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1))}]
+(["{(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1))}"])
+[{return.valid?(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1))}]
+(["{return.valid?(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1))}"])
+[{return.valid?(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1)) =?FIRE.DEBUG.PRINT(1,1)}]
+(["{return.valid?(er.debug.print(1,1) =?FIRE.DEBUG.PRINT(1,1)) =?FIRE.DEBUG.PRINT(1,1)}"])
+
+[{(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1))}]
+(["{(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1))}"])
+[{return.valid?(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1))}]
+(["{return.valid?(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1))}"])
+[{return.valid?(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1)) =?TABLE.FMT(1,1)}]
+(["{return.valid?(er.print-table(table.fmt(1,1)) =?TABLE.FMT(1,1)) =?TABLE.FMT(1,1)}"])
+
+(["{gg.alpha-core(CALLSTACK  == main.alp.token = 949)}"])
+[{gg.alpha-core(CALLSTACK  == main.alp.token = 949) =?CALLSTACK  == main.alp.token = 949}]
+(["{gg.alpha-core(CALLSTACK  == main.alp.token = 949) =?CALLSTACK  == main.alp.token = 949}"])
+
+[{(main.alp.token =?CALLSTACK  == 949)}]
+
+#math
+
+[gg.math-alpha(s = 5)]
+(["gg.math-alpha(s = 5)"])
+
+[gg.math-alpha(s + x = 5)]
+(["gg.math-alpha(s + x = 5)"])
+
+{(gg.math-alpha(s + x = 5) =?GG.MATH.SUB(5,x))}]
+[({gq.math(connect:function[5]) =?GG.MATH.SUB(5,x)})]
+
+[gg.math-alpha(s + x = 5 + y = 6)]
+(["gg.math-alpha(s + x = 5 + y = 6)"])
+
+[gg.math-alpha(s + x = 5 + y = 6,dd = 7)]
+(["gg.math-alpha(s + x = 5 + y = 6,dd = 7)"])
+
+{(gg.math-alpha(s + x = 5 + y = 6,dd = 7) =?GG.MATH.ADD(6,7))}]
+[({gg.math(connect:function[6]) =?GG.MATH.ADD(6,7)})]
+
+[gg.math-alpha(s + x = 5 + y = 6 + dd = 8)]
+(["gg.math-alpha(s + x = 5 + y = 6 + dd = 8)"])
+
+{(gg.math-alpha(s + x = 5 + y = 6 + dd = 8) =?GG.MATH.ADD(7,8))}]
+[({gg.math(connect:function[7]) =?GG.MATH.ADD(7,8)})]
+
+[gg.math-alpha(s + x = 5 + y = 6 + dd = 8, ff = 9)]
+(["gg.math-alpha(s + x = 5 + y = 6 + dd = 8, ff = 9)"])
+
+{(gg.math-alpha(s + x = 5 + y = 6 + dd = 8, ff = 9) =?GG.MATH.ADD(8,9))}]
+[({gg.math(connect:function[8]) =?GG.MATH.ADD(8,9)})]
+
+[gg.math-alpha(s + x = 5 + y = 6 + dd = 8, ff = 9, gg = 10)]
+(["gg.math-alpha(s + x = 5 + y = 6 + dd = 8, ff = 9, gg = 10)"])
+
+
+(["{1 == 1}"])
+[{return.valid?(1 == 1)}]
+(["{return.valid?(1 == 1)}"])
+[{return.valid?(1 == 1) =?1 == 1}]
+(["{return.valid?(1 == 1) =?1 == 1}"])
+[{(1 ==?1 == 1) =?1 == 1}]
+
+[gg.math-alpha(10 * (1 + 10))]
+(["gg.math-alpha(10 * (1 + 10))"])
+
+[gg.math-alpha(10 * (1 + 10), dd = 1)]
+(["gg.math-alpha(10 * (1 + 10), dd = 1)"])
+
+[gg.math-alpha(10 * (1 + 10), dd = 1, ff = 2)]
+(["gg.math-alpha(10 * (1 + 10), dd = 1, ff = 2)"])
+
+[gg.math-alpha(10 * (1 + 10), dd = 1, ff = 2, gg = 3)]
+(["gg.math-alpha(10 * (1 + 10), dd = 1, ff = 2, gg = 3)"])
+
+#base simplicity
+
+[gg.alpha-log(b+a+c).r/4]
+(["gg.alpha-log(b+a+c).r/4"])
+
+[{a+b+c < 10}]
+
+[gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4]
+(["gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4"])
+
+[gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 =?LOG(c)]
+(["gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 =?LOG(c)"])
+
+[{gg.alpha-log(b + a + c).r/4 =?LOG(b + a + c).r/4}]
+
+[{gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 =?LOG(b + a + c).r/4}]
+(["{gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 =?LOG(b + a + c).r/4}"])
+
+[{gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 <?LOG(b + a + c).r/4}]
+(["{gg.alpha-log(b + a + c).r/4 <?LOG(b + a + c).r/4 <?LOG(b + a + c).r/4}"])
