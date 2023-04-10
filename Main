@@ -95,5 +95,5 @@ and now the access key
 [(ky.token-value(token.value = YOUR TOKEN HERE), 2,2)]
 (gg.beta-log((token.value=YOUR TOKEN HERE), (ky.token-value(token.value=YOUR TOKEN HERE), 2,2))))
 and the end
-
+ 
 so there you have it my friends a simple yet effective Artificial intelligence written in all ALP.
