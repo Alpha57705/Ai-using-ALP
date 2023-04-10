@@ -1,0 +1,15 @@
+([gg.alpha-log(b+a+c)])
+([gg.alpha-log(o.maintained)])
+(["obj.method(arg1,arg2,arg3)"])
+([gg.alpha-log(l1.method(l2, l3, l4))])
+([gg.alpha-log(m.beta)]))
+([gg.alpha-log(o.method)]))
+[gg.alpha-log(o1.method(a,b,c))]
+[gg.alpha-log(o2.method(l3,l4,m.beta))]
+[gg.alpha-log(o3.method(l4,l2,m.beta))]
+[gg.alpha-log(o4.method(m.beta,l3,l2))]
+[gg.alpha-log(o5.method(m.beta,l3))]
+[gg.alpha-log(o6.method(m.beta))]
+[gg.alpha-log(a,b,c,m.beta)]
+[gg.alpha-log(o7.method(l3,l2,l4,l1,l1.maintained,m.beta))]
+[gg.alpha-log(o8.method(l3,l2,l4,l1.maintained,m.beta))]
